@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2880A3"
+    android:orientation="vertical"
+    tools:context=".Info">
+
+    <TextView
+        android:id="@+id/tvDuenio"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:rotationY="-182"
+        android:text="➜"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        app:srcCompat="@drawable/dogemovil" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="51dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:text="Nuestro objetivo es brindar atencion medica veterinaria de calidad , servicios veterinarios de bajo costo en beneficio a la poblacion que lo nesecita, y por ultimo Brindar orientacion respecto a la tenencia responsable de mascotas "
+        android:textAlignment="center"
+        android:textColor="#F8F8F8"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/tvCi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contactanos!"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textStyle="normal|bold" />
+
+</LinearLayout>
